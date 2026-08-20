@@ -1,0 +1,87 @@
+[
+  {
+    "post_id": "fixture-001",
+    "provider": "fixture",
+    "author_handle": "agent_alice",
+    "author_verified": true,
+    "created_at": "2026-08-18T09:00:00Z",
+    "urls": ["https://example.org/ai/agent-evals?utm_source=x"],
+    "metrics": {"likes": 210, "reposts": 51, "quotes": 18, "replies": 23},
+    "text": "A rigorous guide to AI agent evaluation and production guardrails.",
+    "link_title": "A Practical Guide to Agent Evaluations",
+    "link_summary": "Benchmarks, online evaluation, and failure analysis for production agents.",
+    "link_published_at": "2026-08-16T08:00:00Z"
+  },
+  {
+    "post_id": "fixture-002",
+    "provider": "fixture",
+    "author_handle": "systems_bob",
+    "created_at": "2026-08-18T15:30:00Z",
+    "urls": ["https://www.example.org/ai/agent-evals?ref=twitter"],
+    "metrics": {"likes": 140, "reposts": 39, "quotes": 12, "replies": 17},
+    "text": "This agent evaluation article is worth reading before you deploy.",
+    "link_title": "A Practical Guide to Agent Evaluations",
+    "link_summary": "Independent field notes on evaluation systems.",
+    "link_published_at": "2026-08-16T08:00:00Z"
+  },
+  {
+    "post_id": "fixture-003",
+    "provider": "fixture",
+    "author_handle": "memory_lab",
+    "created_at": "2026-08-17T10:00:00Z",
+    "urls": ["https://research.example.com/posts/agent-memory"],
+    "metrics": {"likes": 96, "reposts": 21, "quotes": 8, "replies": 9},
+    "text": "New research explains how AI agent memory should be measured.",
+    "link_title": "Measuring Long-Horizon Agent Memory",
+    "link_summary": "A research note on memory reliability for tool-using agents.",
+    "link_published_at": "2026-08-15T12:00:00Z"
+  },
+  {
+    "post_id": "fixture-004",
+    "provider": "fixture",
+    "author_handle": "security_carol",
+    "created_at": "2026-08-14T12:00:00Z",
+    "urls": ["https://papers.example.edu/agent-security?utm_campaign=launch"],
+    "metrics": {"likes": 72, "reposts": 33, "quotes": 14, "replies": 6},
+    "text": "Threat modeling for AI agents needs to start with tool boundaries.",
+    "link_title": "Threat Modeling Tool-Using AI Agents",
+    "link_summary": "A concise security paper for autonomous agent systems.",
+    "link_published_at": "2026-08-13T00:00:00Z"
+  },
+  {
+    "post_id": "fixture-005",
+    "provider": "fixture",
+    "author_handle": "unknown_date",
+    "created_at": "2026-08-16T08:00:00Z",
+    "urls": ["https://labs.example.net/briefing"],
+    "metrics": {"likes": 184, "reposts": 42, "quotes": 7, "replies": 10},
+    "text": "An AI agent briefing with a date the publisher did not expose.",
+    "link_title": "AI Agent Systems Briefing",
+    "link_summary": "A useful but date-uncertain briefing.",
+    "link_published_at": null
+  },
+  {
+    "post_id": "fixture-006",
+    "provider": "fixture",
+    "author_handle": "old_post",
+    "created_at": "2026-08-06T08:00:00Z",
+    "urls": ["https://archive.example.net/old-agent-note"],
+    "metrics": {"likes": 999, "reposts": 99, "quotes": 20, "replies": 12},
+    "text": "An old AI agent note outside the requested period.",
+    "link_title": "Old Agent Note",
+    "link_summary": "Outside the fixture window.",
+    "link_published_at": "2026-08-05T08:00:00Z"
+  },
+  {
+    "post_id": "fixture-007",
+    "provider": "fixture",
+    "author_handle": "native_only",
+    "created_at": "2026-08-18T12:00:00Z",
+    "urls": ["https://x.com/native_only/status/1"],
+    "metrics": {"likes": 900, "reposts": 190, "quotes": 31, "replies": 8},
+    "text": "A native X post, intentionally excluded from external article ranking.",
+    "link_title": null,
+    "link_summary": null,
+    "link_published_at": null
+  }
+]

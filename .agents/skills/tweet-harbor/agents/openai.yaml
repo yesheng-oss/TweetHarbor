@@ -1,0 +1,7 @@
+interface:
+  display_name: "TweetHarbor"
+  short_description: "Discover important X articles with evidence."
+  default_prompt: "Use $tweet-harbor to find the most important AI articles on X from the past 7 days."
+
+policy:
+  allow_implicit_invocation: true

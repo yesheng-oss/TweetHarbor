@@ -1,0 +1,1 @@
+"""Versioned, deterministic article ranking."""

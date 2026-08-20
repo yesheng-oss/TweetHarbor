@@ -1,0 +1,9 @@
+[mcp_servers.tweetharbor]
+command = "tweetharbor"
+args = ["mcp-serve"]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+enabled = true
+
+# Set X_BEARER_TOKEN in the local environment that starts Codex. Do not place
+# credentials in this repository or in command arguments.

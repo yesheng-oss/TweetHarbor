@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible TweetHarbor defect.
+title: "[bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the command, expected behavior, and actual behavior. Remove tokens and private data.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, TweetHarbor version, and provider mode.
+    validations:
+      required: true
